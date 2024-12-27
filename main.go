@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sdk "github.com/ihatiko/go-chef-proxy/go-chef-modules-sdk"
+	sdk "github.com/ihatiko/go-chef-modules-sdk"
 	"github.com/spf13/cobra"
 )
 
