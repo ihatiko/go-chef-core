@@ -2,9 +2,16 @@ package main
 
 import (
 	"fmt"
-	"os"
+	sdk "github.com/ihatiko/go-chef-proxy/go-chef-modules-sdk"
+	"github.com/spf13/cobra"
 )
 
 func main() {
-	fmt.Println(123, os.Args)
+	module := sdk.NewModule()
+	module.AddCommands(
+		module.NewCommand("sandbox test", func(cmd *cobra.Command, args []string) {
+			fmt.Println("sandbox test")
+		}),
+	)
+	module.Run()
 }
