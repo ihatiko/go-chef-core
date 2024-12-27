@@ -3,7 +3,7 @@ module github.com/ihatiko/go-chef-proxy
 go 1.23.4
 
 require (
-	github.com/ihatiko/go-chef-modules-sdk v0.0.1
+	github.com/ihatiko/go-chef-modules-sdk v0.0.2
 	github.com/spf13/cobra v1.8.1
 )
 
