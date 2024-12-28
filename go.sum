@@ -1,6 +1,8 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.4/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/ihatiko/go-chef-modules-sdk v0.0.2 h1:5w8P2tq3KeuPYgVEC/YiLcJQhPXwDkX5SsOsrXgA13I=
 github.com/ihatiko/go-chef-modules-sdk v0.0.2/go.mod h1:E3DQRW7Y1Ld6kigvWMaevdr4xFVWAMBGvIyDTyfxoMg=
+github.com/ihatiko/go-chef-modules-sdk v0.0.3 h1:oECtdl6ljZl2bqlImlWlP0Z3wiDdSROD6g97XDdj2Fg=
+github.com/ihatiko/go-chef-modules-sdk v0.0.3/go.mod h1:E3DQRW7Y1Ld6kigvWMaevdr4xFVWAMBGvIyDTyfxoMg=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=

@@ -3,7 +3,7 @@ module github.com/ihatiko/go-chef-core
 go 1.23.4
 
 require (
-	github.com/ihatiko/go-chef-modules-sdk v0.0.2
+	github.com/ihatiko/go-chef-modules-sdk v0.0.3
 	github.com/spf13/cobra v1.8.1
 )
 
