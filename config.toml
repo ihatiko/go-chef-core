@@ -1,3 +1,9 @@
+# syntax
+# [commands.{{call_name}}]
+# path = "path to install module"
+# desc = "desc for module"
+#
+
 [commands.test]
 path = "github.com/ihatiko/chef/cli/modules/go-chef-sandbox-test"
 

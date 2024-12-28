@@ -1,4 +1,4 @@
-module github.com/ihatiko/go-chef-proxy
+module github.com/ihatiko/go-chef-core
 
 go 1.23.4
 
