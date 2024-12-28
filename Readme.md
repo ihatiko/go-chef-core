@@ -1,3 +1,3 @@
 ```bash
-    go install github.com/ihatiko/go-chef-proxy
+    go install github.com/ihatiko/go-chef-core
 ```
