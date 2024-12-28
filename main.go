@@ -9,7 +9,15 @@ import (
 	"os"
 )
 
-const configDir = ".go-chef-core-modules"
+const fileName = "go-chef-core-modules.toml"
+const configDir = ".go-chef"
+
+type Module struct {
+	Desc       string `toml:"desc"`
+	Path       string `toml:"path"`
+	Deprecated bool   `toml:"deprecated"`
+}
+type Modules map[string]Module
 
 func main() {
 	//dir, err := os.UserConfigDir()
@@ -29,8 +37,17 @@ func main() {
 	//fmt.Println(dir, err)
 	module := sdk.NewModule()
 	module.AddCommands(
-		module.NewCommand("sandbox test", func(cmd *cobra.Command, args []string) {
+		module.NewCommand("sandbox", func(cmd *cobra.Command, args []string) {
 			fmt.Println("sandbox test")
+		}),
+		module.NewDetailCommand("show-config", "Show configuration", "", func(cmd *cobra.Command, args []string) {
+			fmt.Println("TODO")
+		}),
+		module.NewDetailCommand("reset-config", "Reset configuration to base setup", "", func(cmd *cobra.Command, args []string) {
+			fmt.Println("TODO")
+		}),
+		module.NewDetailCommand("config-path", "Show config path", "", func(cmd *cobra.Command, args []string) {
+			fmt.Println("TODO")
 		}),
 	)
 	module.Run()
