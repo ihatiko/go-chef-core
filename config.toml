@@ -1,10 +1,10 @@
 # syntax
-# [commands.{{call_name}}]
+# [module.{{call_name}}]
 # path = "path to install module"
 # desc = "desc for module"
 #
 
-[commands.test]
-path = "github.com/ihatiko/chef/cli/modules/go-chef-sandbox-test"
+[modules.test]
+path = "github.com/ihatiko/go-chef-sandbox-test"
 desc = "тестовый компонент"
 deprecated = true
