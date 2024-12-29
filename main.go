@@ -88,7 +88,7 @@ func main() {
 			updater.AutoUpdate(md.Path)
 			splittedPath := strings.Split(md.Path, "/")
 			coreCommand := splittedPath[len(splittedPath)-1]
-			params := strings.Join(os.Args[1:], " ")
+			params := strings.Join(os.Args[2:], " ")
 			proxyCommand := fmt.Sprintf("%s %s", coreCommand, params)
 			result, err := composer.ExecDefaultCommand(proxyCommand)
 			if err != nil {
